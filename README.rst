@@ -1,3 +1,8 @@
+|Local update|
+pip install git+https://github.com/Rugiewit/Axelrod.git@dev -U
+
+
+
 |Join the chat at https://gitter.im/Axelrod-Python/Axelrod|
 
 This repository hold results for tournaments made possible by the
