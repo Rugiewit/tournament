@@ -5,12 +5,11 @@ import utils
 players = [s() for s in axl.paper_strategies]  # Create players
 
 
-turns = 2000
-repetitions = 1000
-
+turns = 100
+repetitions = 100
 seed = 1
 filename = "data/strategies_test_interactions.csv"
-
+processes = 8
 def main(players=players):
     # Deleting the file if it exists
     try:
