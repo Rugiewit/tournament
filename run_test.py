@@ -5,7 +5,7 @@ import utils
 players = [s() for s in axl.paper_strategies]  # Create players
 
 
-turns = 100
+turns = 200
 repetitions = 200
 seed = 1
 filename = "data/strategies_test_interactions.csv"
