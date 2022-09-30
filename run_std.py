@@ -4,8 +4,8 @@ import utils
 
 from players import players
 
-turns = 200
-repetitions = 100
+turns = 20
+repetitions = 20
 
 processes = 20
 seed = 1
@@ -20,7 +20,7 @@ def main(players=players):
 
     tournament = axl.Tournament(players, turns=turns, repetitions=repetitions, seed=seed)
 
-    results = tournament.play(filename=filename, processes=processes)
+    results = tournament.play(filename=filename)
     utils.obtain_assets(results, "strategies", "std")
     results.write_summary('assets/std_summary.csv')
 

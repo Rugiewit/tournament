@@ -19,6 +19,6 @@ parameterized_players = [
 ]
 
 
-
+#players = [s() for s in axl.strategies] + parameterized_players
 players = [s() for s in axl.paper_strategies] # + parameterized_players
 players.sort(key=lambda p:p.__repr__())

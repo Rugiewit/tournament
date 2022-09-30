@@ -4,7 +4,7 @@ import utils
 
 from players import players
 
-turns = 200
+turns = 100
 repetitions = 100
 noise = 0.05
 processes = 20
@@ -21,7 +21,7 @@ def main(players=players):
     tournament = axl.Tournament(players, turns=turns, repetitions=repetitions,
                                 noise=noise, seed=seed)
 
-    results = tournament.play(filename=filename, processes=processes)
+    results = tournament.play(filename=filename)
     utils.obtain_assets(results, "strategies", "noisy")
     results.write_summary('assets/noisy_summary.csv')
 
