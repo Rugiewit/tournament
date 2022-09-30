@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70212" creator="Ipe 7.2.13">
-<info created="D:20220930114447" modified="D:20220930115327"/>
+<info created="D:20220930114447" modified="D:20220930131923"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -377,7 +377,7 @@ h
 176 400 m
 224 400 l
 </path>
-<text transformations="translations" pos="336 336" stroke="black" type="label" width="98.643" height="11.954" depth="3.35" valign="baseline" size="LARGE">q-value deflect</text>
+<text transformations="translations" pos="336 336" stroke="black" type="label" width="94.795" height="11.954" depth="3.35" valign="baseline" size="LARGE">q-value defect</text>
 <text transformations="translations" pos="336 256" stroke="black" type="label" width="120.729" height="11.954" depth="3.35" valign="baseline" size="LARGE">q-value cooperate</text>
 <text transformations="translations" pos="64 368" stroke="black" type="label" width="33.271" height="10.587" depth="0" valign="baseline" size="LARGE">state</text>
 <path stroke="black" arrow="normal/normal">
